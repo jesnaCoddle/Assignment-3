@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     background-size: 100% 100%;
     background-position: 0px 0px;
-    background-image: radial-gradient(30% 11% at 7% -2%, rgba(255, 177, 177, 0.897) 1%, #ffffff00 99%);
+    background-image: radial-gradient(30% 11% at 7% -2%, rgba(255, 203, 203, 0.897) 1%, #ffffff00 99%);
 
 }
 
@@ -41,7 +41,7 @@ body {
 .navigation a {
     text-decoration: none;
     color: #000;
-    font-size: 1vw;
+    font-size: 1.2vw;
     font-weight: 700;
     line-height: 16.8px;
     text-align: left;
@@ -1116,7 +1116,7 @@ h3 span {
     max-width: 1440px;
     width: 100%;
     height: 50vh;
-    gap: 180px;
+    gap: 100px;
     padding: 16px;
     margin: 0 auto;
     justify-content: center;
@@ -1139,7 +1139,8 @@ h3 span {
 }
 
 .contact {
-    width: 60%;
+    /* border: 1px solid red; */
+    width: 50%;
     min-width: 400px;
     display: flex;
     flex-wrap: wrap;
