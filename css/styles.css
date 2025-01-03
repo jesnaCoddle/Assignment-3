@@ -192,6 +192,34 @@ h1 span {
     bottom: 10%;
     right: 51%;
 }
+.rectangle1{
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    z-index: -1;
+}
+.rectangle2{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    z-index: 1;
+}
+
+.rectangle3{
+    position: absolute;
+    top: 45%;
+    left: 64%;
+    z-index: 1;
+}
+.frame18{
+    position: absolute;
+    top: 86%;
+    left: 76%;
+    z-index: 1;
+}
+
+
+
 
 /* .companylogos */
 
