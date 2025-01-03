@@ -80,6 +80,7 @@ body {
 /* explore */
 
 .content {
+    /* border: 1px solid red; */
     display: flex;
     flex: 0 1 auto;
     justify-content: center;
@@ -94,10 +95,12 @@ body {
 }
 
 .intro {
+    /* border: 1px solid red; */
     padding: 0;
     margin: 0;
     width: 30vw;
-    height: 60vh;
+    height: 100vh;
+  transform: translateY(-5%);
     flex: 0 1 auto;
     max-width: 450px;
     box-sizing: border-box;
@@ -143,6 +146,7 @@ h1 span {
 
 .actions {
     /* border: 1px solid red; */
+    transform: translateY(280%);
     margin-top: 10vh;
     display: flex;
     gap: 6vw;
@@ -919,15 +923,11 @@ h1 span {
     width: 100%;
     max-width: 2040px;
     display: flex;
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     height:auto ;
     box-sizing: border-box;
-    /* background-image: url(/images/Layer_1.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
+
 
 }
 
@@ -1238,7 +1238,7 @@ h3 span {
 
 .obj3 {
     position: absolute;
-    width: 10%;
+    width: 8%;
     height: auto;
     right: 1%;
     z-index: -1;
