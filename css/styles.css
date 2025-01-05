@@ -14,6 +14,7 @@ body {
 }
 
 .header {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +25,7 @@ body {
     height: auto;
     gap: 5vw;
     flex-wrap: wrap;
+
 }
 
 .logo img {
@@ -99,10 +101,11 @@ body {
     padding: 0;
     margin: 0;
     width: 30vw;
-    height: 100vh;
-    transform: translateY(3%)translateX(-90%);
+    height: auto;
+    transform: translateY(-15%)translateX(-90%);
     flex: 0 1 auto;
     max-width: 450px;
+    min-width: 250px;
     box-sizing: border-box;
 }
 
@@ -130,11 +133,12 @@ h1 span {
 
 .content h1 {
     margin-top: 8vh;
-    font-size: 8vh;
+    font-size: 9vh;
     color: #000;
     margin-bottom: 16px;
     width: 90%;
     line-height: 9vh;
+    text-align: left;
 }
 
 .content p {
@@ -146,7 +150,7 @@ h1 span {
 
 .actions {
     /* border: 1px solid red; */
-    transform: translateY(280%);
+    transform: translateY(5%);
     margin-top: 10vh;
     display: flex;
     gap: 6vw;
@@ -240,7 +244,7 @@ h1 span {
     align-items: center;
     overflow: hidden;
     transform: scale(1.1);
-    box-sizing: border-box;
+    box-sizing: border-box-;
 }
 
 .companylogo,
@@ -269,12 +273,12 @@ h1 span {
 .service {
     /* border: 1px solid red; */
     padding: 2vw;
-    width: 100%;
+    width: 90%;
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     overflow: hidden;
     box-sizing: border-box;
 }
@@ -294,7 +298,7 @@ h1 span {
 
 .left-div h3 {
     color: #F85E9F;
-    font-size: 2vw;
+    font-size: 1.2vw;
     letter-spacing: 0.5vw;
     margin-bottom: 3vh;
 }
@@ -310,11 +314,13 @@ h1 span {
 .right-div {
     /* border: 1px solid red; */
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    flex: 1 1 55%;
+    flex: 1 1 40%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .right-content {
@@ -375,7 +381,8 @@ h1 span {
 }
 
 .text {
-    margin-left: 12%;
+    /* border: 1px solid red; */
+    margin-left: 5%;
     flex: 1 1 30%;
     display: flex;
     flex-direction: column;
@@ -492,7 +499,7 @@ h1 span {
     display: flex;
     flex-direction: column;
     position: relative;
-    max-width: 1440px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     height: 100vh;
@@ -508,6 +515,7 @@ h1 span {
 }
 
 .discount {
+
     position: absolute;
     display: flex;
     padding: 2% 3%;
@@ -593,12 +601,13 @@ h1 span {
 }
 
 .travel-text {
+    /* border: 1px solid red; */
     line-height: 1.6em;
     position: relative;
     flex: 1 1 40%;
-    width: 50%;
+    width: 40%;
     height: auto;
-    left: 50%;
+    left: 55%;
     margin-top: 2%;
     padding: 10px;
     box-sizing: border-box;
@@ -623,7 +632,7 @@ h1 span {
 
 .travel-text p {
     margin-top: 1vh;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     margin-bottom: 5vh;
     font-weight: 400;
     line-height: 1.8em;
@@ -715,6 +724,7 @@ h1 span {
 }
 
 /* key */
+
 .keyfeature {
     /* border: 1px solid red; */
     display: flex;
@@ -945,12 +955,13 @@ h1 span {
     position: relative;
     width: 100%;
     height: 80vh;
-    transform: scale(1.1)rotate(-2deg);
+    transform: scale(1.1)rotate(-5deg);
 }
 
 
 .main {
     /* border: 1px solid red; */
+    transform: scale(1.1);
     margin-top: 5%;
     padding: 2vw 2vh;
     position: absolute;
@@ -958,13 +969,15 @@ h1 span {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
+    height: auto;
     gap: 1rem;
     box-sizing: border-box;
 }
 
 .t-left,
 .t-right {
+    /* border: 1px solid red; */
     flex: 0 1 auto;
     width: 10%;
     height: 40vh;
@@ -994,14 +1007,16 @@ h1 span {
 .testament {
     /* border: 1px solid red; */
     flex: 1 1 50%;
-    max-width: 600px;
-    padding: 0.7rem;
+    max-width: 60%;
+    padding: 2rem;
     text-align: center;
 }
 
 .thead h4 {
     color: #f35e76;
     letter-spacing: 0.9rem;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .thead h3 {
@@ -1061,7 +1076,7 @@ h3 span {
     margin: 0 auto;
     padding: 2%;
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1099,8 +1114,6 @@ h3 span {
     font-weight: 700;
     line-height: 66px;
     text-align: center;
-
-
 }
 
 .nl-input {
@@ -1126,7 +1139,6 @@ h3 span {
 }
 
 .nl-input button {
-
     flex-shrink: 0;
     width: auto;
     min-width: 150px;
@@ -1243,8 +1255,7 @@ h3 span {
     position: absolute;
     width: 8%;
     height: auto;
-    right: 1%;
-    z-index: -1;
+    right: 4%;
     top: -70%;
     transform: translateX(60%);
 }
