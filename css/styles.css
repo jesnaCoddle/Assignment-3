@@ -11,6 +11,7 @@ body {
     background-size: 100% 100%;
     background-position: 0 0;
     background-image: radial-gradient(30% 11% at 7% -2%, rgba(255, 203, 203, 0.897) 1%, #ffffff00 99%);
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -24,8 +25,6 @@ body {
     margin: 0 auto;
     height: auto;
     gap: 5vw;
-    flex-wrap: wrap;
-
 }
 
 .logo img {
@@ -56,11 +55,14 @@ body {
 }
 
 .nav-buttons {
+    /* border: 1px solid red; */
     display: flex;
     gap: 1vw;
     width: auto;
     height: auto;
-    flex-wrap: wrap;
+    flex: 0 1 auto;
+    /* min-width: 150px; */
+    /* flex-wrap: wrap; */
 }
 
 .nav-buttons button {
@@ -110,7 +112,6 @@ body {
 }
 
 .explore {
-
     margin-left: 5%;
     display: inline-block;
     border: none;
@@ -124,7 +125,8 @@ body {
     width: 10vw;
     height: 6vh;
     border-radius: 100px;
-    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.09);
+    /* z-index: 1; */
 }
 
 h1 span {
@@ -170,9 +172,12 @@ h1 span {
 }
 
 .actions button:hover {
-    color: #ffffff;
+    /* color: #ffffff; */
     background-color: #5D50C6;
+
 }
+
+
 
 .vector {
     /* border: 1px solid red; */
@@ -227,9 +232,6 @@ h1 span {
     z-index: 1;
 }
 
-
-
-
 /* .companylogos */
 
 .container {
@@ -244,7 +246,7 @@ h1 span {
     align-items: center;
     overflow: hidden;
     transform: scale(1.1);
-    box-sizing: border-box-;
+    box-sizing: border-box;
 }
 
 .companylogo,
@@ -272,33 +274,35 @@ h1 span {
 
 .service {
     /* border: 1px solid red; */
-    padding: 2vw;
-    width: 90%;
-    max-width: 1440px;
+    /* padding: 2vw; */
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 10px;
     overflow: hidden;
     box-sizing: border-box;
+    height: 400px;
 }
 
 .left-div {
     /* border: 1px solid red; */
+    margin-left: 6%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 2vw;
     text-align: left;
     flex: 1 1 40%;
-    max-width: 25%;
+    max-width: 70%;
     box-sizing: border-box;
 
 }
 
 .left-div h3 {
     color: #F85E9F;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     letter-spacing: 0.5vw;
     margin-bottom: 3vh;
 }
@@ -307,40 +311,88 @@ h1 span {
     /* border: 1px solid red; */
     color: #000;
     font-weight: bold;
-    font-size: 2.5vw;
-    max-width: 350px;
+    font-size: 3.4vw;
+    max-width: 80%;
 }
 
 .right-div {
-    /* border: 1px solid red; */
+    position: relative;
+    /* border: 1px solid rgb(89, 0, 255); */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    flex: 1 1 40%;
+    gap: 2%;
+    flex: 1 1 55%;
+    max-width: 50%;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
-.right-content {
+.right-content1 {
+    position: absolute;
     overflow: hidden;
-    flex: 1 1 calc(30% - 20px);
-    max-width: 360px;
-    height: auto;
-    padding: 4vw;
-    gap: 4vw;
+    flex: 1 1 20%;
+    max-width: 280px;
+    height: 90%;
+    padding: 3vw;
+    gap: 3vw;
     border-radius: 32px;
     margin: 1vw;
     border: 1px solid #f0f0f0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-sizing: border-box;
+    left: 5%;
 }
 
-.right-content:hover {
+.right-content2 {
+    position: absolute;
+    overflow: hidden;
+    flex: 1 1 20%;
+    max-width: 270px;
+    height: 90%;
+    padding: 3vw;
+    gap: 3vw;
+    border-radius: 32px;
+    margin: 1vw;
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    left: 45%;
+}
+
+.right-content3 {
+    position: absolute;
+    overflow: hidden;
+    flex: 1 1 20%;
+    max-width: 280px;
+    height: 90%;
+    padding: 3vw;
+    gap: 3vw;
+    border-radius: 32px;
+    margin: 1vw;
+    border: 1px solid #f0f0f0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    right: -25%;
+}
+
+
+.right-content1:hover {
     transform: scale(1.08);
     box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.15);
 }
+
+.right-content2:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.15);
+}
+
+.right-content3:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 9px 61px 2px rgba(0, 0, 0, 0.15);
+}
+
+
 
 .rtext {
     /* border: 1px solid red; */
@@ -357,8 +409,9 @@ h1 span {
 .rtext h3 {
     /* border: 1px solid red; */
     font-weight: bold;
-    width: 120%;
+    width: 100%;
     text-align: center;
+    font-size: 85%;
 }
 
 .rtext p {
@@ -413,7 +466,7 @@ h1 span {
 
 .buttons button {
     background-color: #ffffff;
-    padding: 2vw 3vw;
+    padding: 2vw 2vw;
     border-radius: 100px;
     border: none;
     display: flex;
@@ -424,6 +477,7 @@ h1 span {
 
 .buttons button:hover {
     background-color: #5D50C6;
+    border: none;
 }
 
 .buttons img {
@@ -790,6 +844,7 @@ h1 span {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-left: 10vh;
+    min-width: 350px;
 }
 
 .offer-content {
@@ -840,19 +895,6 @@ h1 span {
     height: auto;
 }
 
-/* .offer-text {
-    text-align: left;
-}
-
-.offer-text h4 {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.offer-text p {
-    font-size: 0.9rem;
-    color: #19182580;
-} */
 
 .key_image {
     position: relative;
@@ -928,7 +970,7 @@ h1 span {
 .testimonial {
     /* border: 1px solid red; */
     margin: 0 auto;
-    padding: 1rem;
+    /* padding: 1rem; */
     width: 100%;
     max-width: 1440px;
     display: flex;
@@ -943,16 +985,17 @@ h1 span {
 .layer {
     position: relative;
     /* border: 1px solid rgb(0, 4, 255); */
-    width: 100%;
-    margin: 0;
+    /* width: 100%; */
+    max-width: 100%;
 
 }
 
 .layer img {
     position: relative;
     width: 100%;
+    max-width: 1440px;
     height: 80vh;
-    transform: scale(1.1)rotate(-5deg);
+    transform: scale(1.1)rotate(-2deg);
 }
 
 
@@ -1255,4 +1298,11 @@ h3 span {
     right: 4%;
     top: -70%;
     transform: translateX(60%);
+}
+
+.right{
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color: #19182580;
 }
