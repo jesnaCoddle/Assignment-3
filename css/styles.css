@@ -968,11 +968,11 @@ h1 span {
 
 
 .testimonial {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin: 0 auto;
     /* padding: 1rem; */
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -984,9 +984,9 @@ h1 span {
 
 .layer {
     position: relative;
-    /* border: 1px solid rgb(0, 4, 255); */
+    border: 1px solid rgb(0, 4, 255);
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
 
 }
 
