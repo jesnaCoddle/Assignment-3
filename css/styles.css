@@ -621,9 +621,9 @@ body {
     position: relative;
 }
 
-.tp-right {
-    /* border: 1px solid rgb(255, 0, 98); */
-}
+/* .tp-right{
+    border: 1px solid rgb(255, 0, 98);
+} */
 
 .rectangle {
     position: absolute;
