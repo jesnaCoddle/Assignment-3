@@ -329,6 +329,7 @@ body {
     /* padding: 40px 150px; */
     box-sizing: border-box;
     opacity: 1;
+    overflow: hidden;
 }
 
 .ser-left,
@@ -342,11 +343,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 55%;
 }
 
 .ser-right {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: baseline;
     overflow: hidden;
@@ -359,7 +360,7 @@ body {
     justify-content: safe;
     align-items: center;
     flex-direction: column;
-    /* overflow: hidden; */
+    /* overflow-x: hidden; */
     width: 550px;
     height: 415px;
     padding: 64px;
@@ -450,6 +451,7 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    min-width: 1440px;
     max-width: 2560px;
     height: 228px;
     padding: 40px 150px;
@@ -463,7 +465,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: left;
+    text-align: center;
 }
 
 .text h3 {
@@ -481,7 +483,7 @@ body {
 .buttons {
     /* border: 1px solid red; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     flex: 1;
     gap: 1vh;
@@ -530,11 +532,10 @@ body {
     width: 107px;
     height: 106.55px;
     top: 0%;
-    right: 5%;
+    right: 10%;
     gap: 0px;
     opacity: 0px;
     z-index: 1;
-
 }
 
 .card {
