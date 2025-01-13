@@ -36,7 +36,6 @@ body {
     gap: 5vw;
     flex: 1;
     justify-content: center;
-
 }
 
 .navigation a {
@@ -136,7 +135,7 @@ body {
 
 .explore h1 {
     color: #F85E9F;
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 16.8px;
@@ -155,7 +154,7 @@ body {
 }
 
 .intro-text h1 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 69px;
     font-weight: 700;
     line-height: 82.8px;
@@ -387,7 +386,7 @@ body {
 
 .ser-text h1 {
     color: #F85E9F;
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -402,7 +401,7 @@ body {
 }
 
 .ser-text h3 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 52.8px;
@@ -424,7 +423,7 @@ body {
 }
 
 .ser-content h5 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 33.6px;
@@ -774,7 +773,7 @@ body {
 
 .traveltext h5 {
     color: #F85E9F;
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -785,7 +784,7 @@ body {
 }
 
 .traveltext h3 {
-    font-family: Circular Std, sans-serif;
+    font-family: sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 52.8px;
@@ -800,7 +799,7 @@ body {
 
 .traveltext p {
     color: #19182580;
-    font-family: Inter, sans-serif;
+    font-family:sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
@@ -1116,7 +1115,7 @@ body {
 }
 
 .testimonial-head h3 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 52.8px;
@@ -1139,7 +1138,7 @@ body {
 }
 
 .testimonial-footer h3 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 33.6px;
@@ -1156,7 +1155,7 @@ body {
 
 .testimonial-footer p {
     color: #19182580;
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 23px;
     font-weight: 450;
     line-height: 36.8px;
@@ -1230,7 +1229,7 @@ body {
 }
 
 .news-text h2 {
-    font-family: Circular Std, sans-serif;
+    font-family: sans-serif;
     font-size: 55px;
     font-weight: 700;
     line-height: 66px;
@@ -1342,7 +1341,7 @@ body {
 }
 
 .contact h3 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -1364,7 +1363,7 @@ body {
 }
 
 .about-content h3 {
-    font-family: Circular Std, sans-serif;
+    font-family:sans-serif;
     font-size: 23px;
     font-weight: 450;
     line-height: 36.8px;
