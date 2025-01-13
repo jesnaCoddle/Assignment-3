@@ -772,6 +772,9 @@ body {
     width: 445px;
     height: 50%;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frame41,
@@ -783,7 +786,7 @@ body {
     height: 151px;
     padding: 20px;
     gap: 16px;
-    border-radius: 16px;
+    border-radius: 32px;
     border: 1px solid #1918251A;
 }
 
