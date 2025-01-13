@@ -1076,8 +1076,8 @@ body {
     z-index: 1;
 }
 
-.t-left,
-.t-right {
+.testimonial-left,
+.testimonial-right {
     width: 10%;
     height: 100%;
     display: flex;
@@ -1085,8 +1085,8 @@ body {
     align-items: center;
 }
 
-.t-left button,
-.t-right button {
+.testimonial-left button,
+.testimonial-right button {
     width: 100px;
     height: 100px;
     padding: 16px 32px;
@@ -1103,14 +1103,14 @@ body {
 }
 
 
-.t-right button {
+.testimonial-right button {
     color: white;
     background-color: #5D50C6;
     box-shadow: 0px 29px 29px 0px #0000000F;
 }
 
-.t-left button img,
-.t-right button img {
+.testimonial-left button img,
+.testimonial-right button img {
     width: 30px;
     height: 30px;
 }
@@ -1126,7 +1126,7 @@ body {
     align-items: center;
 }
 
-.thead h4 {
+.testimonial-head h4 {
     color: #f35e76;
     font-size: 23px;
     font-weight: 700;
@@ -1139,7 +1139,7 @@ body {
 
 }
 
-.thead h3 {
+.testimonial-head h3 {
     font-family: Circular Std, sans-serif;
     font-size: 44px;
     font-weight: 700;
@@ -1150,7 +1150,7 @@ body {
     margin-bottom: 5%;
 }
 
-.tcontent img {
+.testimonial-content img {
     max-width: 100px;
     height: auto;
     margin: 0 auto;
@@ -1158,11 +1158,11 @@ body {
     object-fit: cover;
 }
 
-.tfooter {
+.testimonial-footer {
     margin-top: 1rem;
 }
 
-.tfooter h3 {
+.testimonial-footer h3 {
     font-family: Circular Std, sans-serif;
     font-size: 28px;
     font-weight: 700;
@@ -1174,11 +1174,11 @@ body {
 
 }
 
-.tfooter span {
+.testimonial-footer span {
     color: #FF5722;
 }
 
-.tfooter p {
+.testimonial-footer p {
     color: #19182580;
     font-family: Circular Std, sans-serif;
     font-size: 23px;
@@ -1190,18 +1190,18 @@ body {
 
 }
 
-.tfooter h3,
-.tfooter p {
+.testimonial-footer h3,
+.testimonial-footer p {
     margin: 0.5rem 0;
 }
 
-.tfooter img {
+.testimonial-footer img {
     max-width: 80%;
     height: auto;
     margin: 1rem auto;
 }
 
-.dots img {
+.testimonial-dots img {
     margin-top: 10%;
     max-width: 100%;
     height: auto;
