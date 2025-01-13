@@ -1235,7 +1235,7 @@ body {
     opacity: 1;
 }
 
-.nl-text {
+.news-text {
     width: 100%;
     max-width: 982px;
     height: auto;
@@ -1243,7 +1243,7 @@ body {
     gap: 2em;
 }
 
-.nl-text h3 {
+.news-text h3 {
     text-transform: uppercase;
     color: #ff4180;
     font-size: 23px;
@@ -1255,7 +1255,7 @@ body {
     margin-bottom: 5%;
 }
 
-.nl-text h2 {
+.news-text h2 {
     font-family: Circular Std, sans-serif;
     font-size: 55px;
     font-weight: 700;
@@ -1265,7 +1265,7 @@ body {
     text-decoration-skip-ink: none;
 }
 
-.nl-input {
+.news-input {
     width: 982px;
     height: 96px;
     gap: 64px;
@@ -1274,13 +1274,13 @@ body {
     align-items: center;
 }
 
-.nl-input label {
+.news-input label {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.nl-input input {
+.news-input input {
     width: 683px;
     height: 96px;
     padding: 32px;
@@ -1295,12 +1295,12 @@ body {
     background-color: #fff;
 }
 
-.nl-input ::placeholder {
+.news-input ::placeholder {
     font-size: 24px;
     color: #191825BF;
 }
 
-.nl-input .icon {
+.news-input .icon {
     position: absolute;
     left: 10px;
     top: 50%;
@@ -1309,7 +1309,7 @@ body {
     height: 24px;
 }
 
-.nl-input button {
+.news-input button {
     background-color: #5D50C6;
     color: white;
     border: none;
@@ -1428,7 +1428,7 @@ body {
     opacity: 1;
 }
 
-.right {
+.copyright {
     position: absolute;
     bottom: 0%;
     text-align: center;
