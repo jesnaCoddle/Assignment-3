@@ -213,7 +213,7 @@ body {
     background-color: #5D50C6;
     border: none;
     border-radius: 100px;
-    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.29);
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.159);
 }
 
 .actions button:nth-child(2) {
