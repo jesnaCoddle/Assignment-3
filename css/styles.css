@@ -1266,7 +1266,7 @@ body {
 
 .letter {
     /* border: 1px solid rgb(0, 98, 255); */
-    background-color: #fff3f5;
+    background-color: #ffedf0;
     width: 1110px;
     height: 608px;
     padding: 128px 64px;
@@ -1450,7 +1450,7 @@ body {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    color: #19182550;
+    color: #191825b6;
     width: 278px;
     height: 185px;
 
