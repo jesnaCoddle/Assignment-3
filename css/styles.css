@@ -14,11 +14,13 @@ body {
 }
 
 .container {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: auto;
+    margin:0 auto;
 }
 
 .header {
@@ -132,7 +134,7 @@ nav a:nth-child(2) {
 .rightimage {
     position: relative;
     height: 100%;
-    width: 95%;
+    width: 100%;
     max-width: 600px;
     display: flex;
 }
@@ -308,6 +310,7 @@ nav a:nth-child(2) {
 
 
 .companylogo {
+    /* border: 1px solid red; */
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -324,7 +327,7 @@ nav a:nth-child(2) {
     position: absolute;
     width: 65px;
     height: 170px;
-    left: 5%;
+    left: 3%;
     opacity: 1;
     z-index: 1;
 }
@@ -336,6 +339,7 @@ nav a:nth-child(2) {
 }
 
 .service {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -370,6 +374,7 @@ nav a:nth-child(2) {
     align-items: center;
     overflow: hidden;
     gap: 5%;
+    max-width: 800px;
 }
 
 .ser-card {
@@ -450,6 +455,7 @@ nav a:nth-child(2) {
 }
 
 .destination {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -461,6 +467,7 @@ nav a:nth-child(2) {
     box-sizing: border-box;
     opacity: 1;
     margin: 0 auto;
+    /* flex: 1 1 auto; */
 }
 
 .text {
