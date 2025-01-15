@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     background-size: 100% 100%;
     background-position: 0 0;
@@ -13,17 +13,38 @@ body {
     background-repeat: no-repeat;
 }
 
+.container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
 .header {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    max-width: 1902px;
     width: 100%;
-    max-width: 2560px;
+    margin: 0 auto;
     height: 113px;
     padding: 32px 165px;
     gap: 5vw;
     box-sizing: border-box;
 }
+
+nav {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 
 .logo img {
     width: 142px;
@@ -31,14 +52,7 @@ body {
     opacity: 1;
 }
 
-.navigation {
-    display: flex;
-    gap: 5vw;
-    flex: 1;
-    justify-content: center;
-}
-
-.navigation a {
+nav a {
     text-decoration: none;
     color: #19182580;
     font-size: 14px;
@@ -47,12 +61,12 @@ body {
     text-align: left;
 }
 
-.navigation a:first-child {
+nav a:nth-child(2) {
     color: #000;
 }
 
+
 .nav-buttons {
-    display: flex;
     gap: 1vw;
     flex: 0 1 auto;
 }
@@ -77,20 +91,23 @@ body {
 }
 
 .content {
+    /* border: 1px solid red; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 1440px;
-    max-width: 2560px;
+    width: 100%;
+    max-width: 1902px;
     height: 913px;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 32px 165px;
     box-sizing: border-box;
 
 }
 
 .intro {
-    width: 600px;
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 1902px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -101,20 +118,34 @@ body {
 
 .intro-left {
     height: 548px;
+    width: 100;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .intro-right {
-    height: 713px;
+    /* border: 1px solid blue; */
+    height: 750px;
+    width: 100%;
     opacity: 1;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
+.rightimage {
+    /* border: 1px solid green; */
+    position: relative;
+    height: 100%;
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+}
 
 .explore {
     position: absolute;
@@ -135,7 +166,7 @@ body {
 
 .explore h1 {
     color: #F85E9F;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 16.8px;
@@ -154,7 +185,7 @@ body {
 }
 
 .intro-text h1 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 69px;
     font-weight: 700;
     line-height: 82.8px;
@@ -181,13 +212,17 @@ body {
 }
 
 .actions {
+    position: absolute;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 16px;
     width: 338px;
     height: 56px;
     opacity: 1;
-    margin-left: -20%;
-    margin-top: 10%;
+    bottom: 0%;
+    left: 0%;
+
 }
 
 .actions button:first-child {
@@ -222,6 +257,7 @@ body {
     width: 772px;
     height: 287.38px;
     top: 0%;
+    left: -10%;
     gap: 0px;
     opacity: 0px;
     z-index: 1;
@@ -229,82 +265,78 @@ body {
 
 .group1 {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1vh;
     z-index: 1;
     top: 10%;
-    left: 1%;
+    left: 0%;
     border-radius: 32px;
 }
 
 .group2 {
     position: absolute;
-    width: 272px;
-    height: 400px;
-    gap: 0px;
-    border-radius: 32px;
-    opacity: 0px;
-    left: 50%;
+    left: 0%;
+    bottom: 5%;
 }
 
-.frame16 {
+.group3 {
     position: absolute;
-    width: 64px;
-    height: 64px;
-    left: -10%;
-    top: 45%;
-    padding: 16px;
-    border-radius: 100px;
-    opacity: 1;
+    right: 0%;
+    bottom: 30%;
     z-index: 1;
-    box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
+}
+
+
+.frame16 {
+    /* border: 1px solid red; */
+
+    position: absolute;
+    width: Hug (64px)px;
+    height: Hug (64px)px;
+    top: 50%;
+    left: -5%;
+    border-radius: 100px;
+    opacity: 0px;
+
 }
 
 .frame17 {
     position: absolute;
-    width: 64px;
-    height: 64px;
-    bottom: 1%;
-    right: inherit;
-    padding: 16px;
-    gap: 8px;
+    width: Hug (64px)px;
+    height: Hug (64px)px;
+    bottom: -10%;
+    left: 50%;
     border-radius: 100px;
     opacity: 0px;
-    box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
+
 }
 
 .frame18 {
     position: absolute;
-    width: 166px;
-    height: 56px;
-    bottom: 30%;
-    right: 1%;
+
+    width: Hug (166px)px;
+    height: Hug (56px)px;
+    right: -20%;
+    bottom: 15%;
     padding: 16px 32px;
+    gap: 8px;
     border-radius: 100px;
-    opacity: 1;
+    opacity: 0px;
     z-index: 1;
-    box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 38px 80px -26px rgba(0, 0, 0, 0.75);
+
 }
 
-.container {
+
+.companylogo {
+    /* border: 1px solid red; */
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 2560px;
+    max-width: 1902px;
     height: 113px;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 32px 165px;
     box-sizing: border-box;
 }
 
@@ -324,15 +356,19 @@ body {
 }
 
 .service {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 2560px;
+    max-width: 1902px;
     height: 450px;
     box-sizing: border-box;
     opacity: 1;
     overflow: hidden;
+    padding: 32px 0px;
+    margin: 0 auto;
 }
 
 .ser-left,
@@ -342,27 +378,27 @@ body {
 }
 
 .ser-left {
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+  
 }
 
 .ser-right {
-    padding: 0.5%;
-    width: 50%;
+    /* border: 1px solid red; */
+    width: 100%;
     display: flex;
-    justify-content: first start;
-    align-items: flex-start;
+    justify-content: left;
+    align-items: center;
     overflow: hidden;
-    gap: 4vh;
-    z-index: 1;
+    gap: 5%;
 }
 
 .ser-card {
     display: flex;
     text-align: center;
-    justify-content: safe;
+    /* justify-content: ; */
     align-items: center;
     flex-direction: column;
     width: 300px;
@@ -378,7 +414,7 @@ body {
 }
 
 .ser-text {
-    width:444px;
+    width: 444px;
     height: 150px;
     gap: 16px;
     opacity: 0px;
@@ -386,7 +422,7 @@ body {
 
 .ser-text h1 {
     color: #F85E9F;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -401,7 +437,7 @@ body {
 }
 
 .ser-text h3 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 52.8px;
@@ -423,7 +459,7 @@ body {
 }
 
 .ser-content h5 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 33.6px;
@@ -438,17 +474,18 @@ body {
 }
 
 .destination {
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1440px;
-    max-width: 2560px;
+    max-width: 1902px;
     height: 228px;
-    padding: 40px 150px;
+    padding: 32px 165px;
     box-sizing: border-box;
     opacity: 1;
+    margin: 0 auto;
 }
 
 .text {
@@ -511,7 +548,9 @@ body {
     height: 24px;
 }
 
+
 .card-group {
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -519,10 +558,10 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 2560px;
-    min-width: 1024px;
-    height: 650px;
-    padding: 20px 5%;
+    max-width: 1902px;
+    height: 750px;
+    padding: 32px 165px;
+    margin: 0 auto;
     gap: 5%;
 }
 
@@ -531,15 +570,13 @@ body {
     width: 107px;
     height: 106.55px;
     top: 0%;
-    right: 3%;
-    gap: 0px;
-    opacity: 0px;
+    right: -6%;
     z-index: 1;
 }
 
 .card {
     background-color: #ffffff;
-    width: 1210px;
+    width: 100%;
     height: 608px;
     padding: 128px 64px;
     gap: 30px;
@@ -588,11 +625,12 @@ body {
 }
 
 .travel-point {
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 2560px;
+    max-width: 1902px;
     height: 700px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -773,7 +811,7 @@ body {
 
 .traveltext h5 {
     color: #F85E9F;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -799,7 +837,7 @@ body {
 
 .traveltext p {
     color: #19182580;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
@@ -841,14 +879,17 @@ body {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.231);
 }
 
+
+
 .keyfeature {
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     width: 100%;
-    max-width: 1440px;
-    padding: 0px;
+    max-width: 1902px;
+    padding: 32px 100px;
     margin: 0 auto;
     box-sizing: border-box;
 
@@ -856,8 +897,8 @@ body {
 
 .key,
 .key_image {
+    /* border: 1px solid red; */
     flex: 1 1 45%;
-    padding: 16px;
     box-sizing: border-box;
     position: relative;
 }
@@ -927,8 +968,8 @@ body {
     border: 1px solid #19182580;
     border-radius: 32px;
     width: 420px;
-    height: 150px;
-    padding: 32px;
+    height: 160px;
+    /* padding: 32px; */
 }
 
 .offer-text {
@@ -1019,11 +1060,14 @@ body {
 }
 
 .testimonial {
+    /* border: 1px solid red; */
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    max-width: 1902px;
+    margin: 0 auto;
     height: 700px;
     padding: 0;
     overflow: hidden;
@@ -1115,7 +1159,7 @@ body {
 }
 
 .testimonial-head h3 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 44px;
     font-weight: 700;
     line-height: 52.8px;
@@ -1138,7 +1182,7 @@ body {
 }
 
 .testimonial-footer h3 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 28px;
     font-weight: 700;
     line-height: 33.6px;
@@ -1155,7 +1199,7 @@ body {
 
 .testimonial-footer p {
     color: #19182580;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 450;
     line-height: 36.8px;
@@ -1185,16 +1229,19 @@ body {
 }
 
 .newsletter {
+    /* border: 1px solid red; */
+    padding: 32px 165px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 2%;
+    max-width: 1902px;
+    margin: 0 auto;
 }
 
 .letter {
-    background-color: #ffedf0;
+    background-color: #fff8f9;
     width: 1110px;
     height: 608px;
     padding: 128px 64px;
@@ -1308,14 +1355,14 @@ body {
 }
 
 .footer {
+    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    max-width: 2560px;
-    min-width: 1024px;
+    max-width: 1902px;
     height: 353px;
     padding: 20px 5%;
     gap: 5%;
@@ -1341,7 +1388,7 @@ body {
 }
 
 .contact h3 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 700;
     line-height: 27.6px;
@@ -1363,7 +1410,7 @@ body {
 }
 
 .about-content h3 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 23px;
     font-weight: 450;
     line-height: 36.8px;
@@ -1392,7 +1439,7 @@ body {
     width: 120px;
     height: 351.95px;
     right: 0%;
-    bottom: 40%;
+    bottom: 60%;
     gap: 0px;
     opacity: 1;
 }
