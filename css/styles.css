@@ -1173,7 +1173,7 @@ nav a:nth-child(2) {
     width: 100%;
     min-width: 1900px;
     max-width: 2560px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .letter {
@@ -1286,7 +1286,7 @@ nav a:nth-child(2) {
 
 .footer {
     /* border: 1px solid red; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: relative;
     display: flex;
     flex-direction: row;
@@ -1296,7 +1296,7 @@ nav a:nth-child(2) {
     max-width: 2000px;
     height: 353px;
     padding: 32px 165px ;
-    gap: 10px;
+    gap: 60px;
 
 }
 
