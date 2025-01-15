@@ -14,7 +14,6 @@ body {
 }
 
 .container {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +22,6 @@ body {
 }
 
 .header {
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,14 +35,12 @@ body {
 }
 
 nav {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
-
 
 .logo img {
     width: 142px;
@@ -64,7 +60,6 @@ nav a {
 nav a:nth-child(2) {
     color: #000;
 }
-
 
 .nav-buttons {
     gap: 1vw;
@@ -91,7 +86,6 @@ nav a:nth-child(2) {
 }
 
 .content {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,11 +95,9 @@ nav a:nth-child(2) {
     margin: 0 auto;
     padding: 32px 165px;
     box-sizing: border-box;
-
 }
 
 .intro {
-    /* border: 1px solid red; */
     width: 100%;
     max-width: 1902px;
     height: 100%;
@@ -128,7 +120,6 @@ nav a:nth-child(2) {
 }
 
 .intro-right {
-    /* border: 1px solid blue; */
     height: 750px;
     width: 100%;
     opacity: 1;
@@ -139,7 +130,6 @@ nav a:nth-child(2) {
 }
 
 .rightimage {
-    /* border: 1px solid green; */
     position: relative;
     height: 100%;
     width: 95%;
@@ -194,7 +184,6 @@ nav a:nth-child(2) {
     height: 249px;
     gap: 0px;
     opacity: 0px;
-
 }
 
 .intro-para {
@@ -222,7 +211,6 @@ nav a:nth-child(2) {
     opacity: 1;
     bottom: 0%;
     left: 0%;
-
 }
 
 .actions button:first-child {
@@ -285,10 +273,7 @@ nav a:nth-child(2) {
     z-index: 1;
 }
 
-
 .frame16 {
-    /* border: 1px solid red; */
-
     position: absolute;
     width: Hug (64px)px;
     height: Hug (64px)px;
@@ -296,7 +281,6 @@ nav a:nth-child(2) {
     left: -5%;
     border-radius: 100px;
     opacity: 0px;
-
 }
 
 .frame17 {
@@ -307,12 +291,10 @@ nav a:nth-child(2) {
     left: 50%;
     border-radius: 100px;
     opacity: 0px;
-
 }
 
 .frame18 {
     position: absolute;
-
     width: Hug (166px)px;
     height: Hug (56px)px;
     right: -20%;
@@ -322,12 +304,10 @@ nav a:nth-child(2) {
     border-radius: 100px;
     opacity: 0px;
     z-index: 1;
-
 }
 
 
 .companylogo {
-    /* border: 1px solid red; */
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -356,7 +336,6 @@ nav a:nth-child(2) {
 }
 
 .service {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -378,7 +357,6 @@ nav a:nth-child(2) {
 }
 
 .ser-left {
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,7 +364,6 @@ nav a:nth-child(2) {
 }
 
 .ser-right {
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     justify-content: left;
@@ -398,7 +375,6 @@ nav a:nth-child(2) {
 .ser-card {
     display: flex;
     text-align: center;
-    /* justify-content: ; */
     align-items: center;
     flex-direction: column;
     width: 300px;
@@ -474,7 +450,6 @@ nav a:nth-child(2) {
 }
 
 .destination {
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -550,7 +525,6 @@ nav a:nth-child(2) {
 
 
 .card-group {
-    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -625,7 +599,6 @@ nav a:nth-child(2) {
 }
 
 .travel-point {
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -879,10 +852,7 @@ nav a:nth-child(2) {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.231);
 }
 
-
-
 .keyfeature {
-    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -897,7 +867,6 @@ nav a:nth-child(2) {
 
 .key,
 .key_image {
-    /* border: 1px solid red; */
     flex: 1 1 45%;
     box-sizing: border-box;
     position: relative;
@@ -969,7 +938,6 @@ nav a:nth-child(2) {
     border-radius: 32px;
     width: 420px;
     height: 160px;
-    /* padding: 32px; */
 }
 
 .offer-text {
@@ -1060,7 +1028,6 @@ nav a:nth-child(2) {
 }
 
 .testimonial {
-    /* border: 1px solid red; */
     position: relative;
     display: flex;
     justify-content: center;
@@ -1229,7 +1196,6 @@ nav a:nth-child(2) {
 }
 
 .newsletter {
-    /* border: 1px solid red; */
     padding: 32px 165px;
     position: relative;
     display: flex;
@@ -1355,7 +1321,6 @@ nav a:nth-child(2) {
 }
 
 .footer {
-    /* border: 1px solid red; */
     margin: 0 auto;
     position: relative;
     display: flex;
