@@ -27,13 +27,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1902px;
+    /* min-width: 1902px; */
+    min-width: 1900px;
+    max-width: 2560px;
     width: 100%;
     margin: 0 auto;
     height: 113px;
     padding: 32px 165px;
     gap: 5vw;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 nav {
@@ -92,7 +94,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 913px;
     margin: 0 auto;
     padding: 32px 165px;
@@ -316,7 +319,8 @@ nav a:nth-child(2) {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 113px;
     margin: 0 auto;
     padding: 32px 165px;
@@ -345,7 +349,8 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 450px;
     box-sizing: border-box;
     opacity: 1;
@@ -374,7 +379,7 @@ nav a:nth-child(2) {
     align-items: center;
     overflow: hidden;
     gap: 5%;
-    max-width: 800px;
+    max-width: 1902px;
 }
 
 .ser-card {
@@ -461,7 +466,8 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 228px;
     padding: 32px 165px;
     box-sizing: border-box;
@@ -539,7 +545,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 750px;
     padding: 32px 165px;
     margin: 0 auto;
@@ -610,7 +617,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 700px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -865,7 +873,8 @@ nav a:nth-child(2) {
     justify-content: center;
     gap: 20px;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     padding: 32px 100px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -1040,7 +1049,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     margin: 0 auto;
     height: 700px;
     padding: 0;
@@ -1209,7 +1219,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     margin: 0 auto;
 }
 
@@ -1334,7 +1345,8 @@ nav a:nth-child(2) {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    max-width: 1902px;
+    min-width: 1900px;
+    max-width: 2560px;
     height: 353px;
     padding: 20px 5%;
     gap: 5%;
