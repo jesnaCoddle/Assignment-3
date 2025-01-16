@@ -25,9 +25,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 1440px;
-    max-width: 1902px;
     width: 100%;
+    max-width: 1902px;
     height: 113px;
     padding: 32px 165px;
     box-sizing: border-box;
@@ -88,7 +87,6 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 913px;
     padding: 32px 165px;
@@ -124,6 +122,7 @@ nav a:nth-child(2) {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
 }
 
 .rightimage {
@@ -241,6 +240,8 @@ nav a:nth-child(2) {
     top: 0%;
     left: -10%;
     z-index: 1;
+    max-width: 700px;
+    min-width: 400px;
 }
 
 .group1 {
@@ -305,7 +306,6 @@ nav a:nth-child(2) {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 113px;
     padding: 32px 165px;
@@ -333,7 +333,6 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 450px;
     box-sizing: border-box;
@@ -352,7 +351,6 @@ nav a:nth-child(2) {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .ser-right {
@@ -452,7 +450,6 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 228px;
     padding: 32px 165px;
@@ -527,7 +524,6 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 750px;
     padding: 32px 165px;
@@ -595,7 +591,6 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 700px;
     box-sizing: border-box;
@@ -801,6 +796,7 @@ nav a:nth-child(2) {
     font-size: 30px;
     font-weight: 700;
     line-height: 1.2em;
+    margin-top: 10%;
 }
 
 .num-txt {
@@ -810,7 +806,6 @@ nav a:nth-child(2) {
     line-height: 1.5em;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
 }
 
 .frame50 {
@@ -827,7 +822,6 @@ nav a:nth-child(2) {
     justify-content: center;
     gap: 20px;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     padding: 32px 100px;
     box-sizing: border-box;
@@ -1008,7 +1002,6 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 700px;
     padding: 0;
@@ -1019,7 +1012,7 @@ nav a:nth-child(2) {
     position: absolute;
     width: 100%;
     height: 100%;
-    max-width: 1902px;
+
 }
 
 .layer img {
@@ -1163,7 +1156,6 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
 }
 
@@ -1281,7 +1273,6 @@ nav a:nth-child(2) {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    min-width: 1440px;
     max-width: 1902px;
     height: 353px;
     padding: 32px 165px;
@@ -1295,6 +1286,7 @@ nav a:nth-child(2) {
     max-width: 400px;
     min-width: 200px;
     height: 330px;
+    flex: 1 1 200px;
 }
 
 .contact {
@@ -1305,6 +1297,7 @@ nav a:nth-child(2) {
     max-width: 700px;
     min-width: 400px;
     line-height: 2.1;
+    flex: 1 1 200px;
 }
 
 .contact h3 {
