@@ -29,7 +29,7 @@ body {
     min-width: 1665px;
     max-width: 2500px;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 113px;
     padding: 32px 165px;
     box-sizing: border-box;
@@ -93,7 +93,7 @@ nav a:nth-child(2) {
     min-width: 1665px;
     max-width: 2500px;
     height: 913px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 32px 165px;
     box-sizing: border-box;
 }
@@ -312,7 +312,7 @@ nav a:nth-child(2) {
     min-width: 1665px;
     max-width: 2500px;
     height: 113px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 32px 165px;
     box-sizing: border-box;
 }
@@ -345,7 +345,7 @@ nav a:nth-child(2) {
     opacity: 1;
     overflow: hidden;
     padding: 32px 0px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .ser-left,
@@ -454,7 +454,7 @@ nav a:nth-child(2) {
     padding: 32px 165px;
     box-sizing: border-box;
     opacity: 1;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .text {
@@ -518,7 +518,7 @@ nav a:nth-child(2) {
 }
 
 .card-group {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: relative;
     display: flex;
     flex-direction: row;
@@ -529,7 +529,7 @@ nav a:nth-child(2) {
     max-width: 2500px;
     height: 750px;
     padding: 32px 165px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     gap: 10px;
 }
 
@@ -600,7 +600,7 @@ nav a:nth-child(2) {
     max-width: 2500px;
     height: 700px;
     box-sizing: border-box;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .travelcontent {
@@ -832,7 +832,7 @@ nav a:nth-child(2) {
     min-width: 1665px;
     max-width: 2500px;
     padding: 32px 100px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     box-sizing: border-box;
 }
 
@@ -1014,7 +1014,7 @@ nav a:nth-child(2) {
     width: 100%;
     min-width: 1665px;
     max-width: 2500px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     height: 700px;
     padding: 0;
     overflow: hidden;
