@@ -19,17 +19,15 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    margin: 0 auto;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     width: 100%;
-    /* margin: 0 auto; */
     height: 113px;
     padding: 32px 165px;
     box-sizing: border-box;
@@ -90,17 +88,15 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 913px;
-    /* margin: 0 auto; */
     padding: 32px 165px;
     box-sizing: border-box;
 }
 
 .intro {
     width: 100%;
-    max-width: 1902px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -265,7 +261,7 @@ nav a:nth-child(2) {
 .group3 {
     position: absolute;
     right: 0%;
-    bottom: 30%;
+    bottom: 20%;
     z-index: 1;
 }
 
@@ -295,7 +291,7 @@ nav a:nth-child(2) {
     width: 300px;
     height: 200px;
     right: -20%;
-    bottom: 15%;
+    bottom: 10%;
     padding: 16px 32px;
     gap: 8px;
     border-radius: 100px;
@@ -309,10 +305,9 @@ nav a:nth-child(2) {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 113px;
-    /* margin: 0 auto; */
     padding: 32px 165px;
     box-sizing: border-box;
 }
@@ -321,7 +316,7 @@ nav a:nth-child(2) {
     position: absolute;
     width: 65px;
     height: 170px;
-    left: 3%;
+    left: 5%;
     opacity: 1;
     z-index: 1;
 }
@@ -338,14 +333,13 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 450px;
     box-sizing: border-box;
     opacity: 1;
     overflow: hidden;
     padding: 32px 0px;
-    /* margin: 0 auto; */
 }
 
 .ser-left,
@@ -369,23 +363,7 @@ nav a:nth-child(2) {
     overflow: hidden;
     gap: 40px;
     max-width: 1902px;
-}
-
-.ser-card {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    width: 300px;
-    height: 380px;
-    padding: 64px;
-    border-radius: 32px;
-    opacity: 0px;
-}
-
-.ser-card:nth-child(2),
-.ser-card:nth-child(3) {
-    box-shadow: 0px 41px 89px 0px #0000001A;
+    position: relative;
 }
 
 .ser-text {
@@ -421,25 +399,51 @@ nav a:nth-child(2) {
     opacity: 0px;
 }
 
+
+.ser-card1 {
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    border-radius: 32px;
+    left: 5%;
+}
+
+.ser-card2 {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 380px;
+    border-radius: 32px;
+}
+
+.ser-card3 {
+    position: absolute;
+    width: 40px;
+    height: 380px;
+    right: 0%;
+    border-radius: 32px 0px 0px 32px;
+
+}
+
+.ser-card2,
+.ser-card3 {
+    box-shadow: 0px 41px 89px 0px #0000001A;
+}
+
+.ser-img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
 .ser-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 10%;
-    width: 180px;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .ser-content h5 {
-    font-family: sans-serif;
     font-size: 20px;
-    font-weight: 700;
-    line-height: 33.6px;
-    text-align: center;
-}
-
-.ser-p {
-    color: #19182580;
-    margin-top: 2vh;
+    margin-bottom: 5px;
 }
 
 .destination {
@@ -448,13 +452,12 @@ nav a:nth-child(2) {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 228px;
     padding: 32px 165px;
     box-sizing: border-box;
     opacity: 1;
-    /* margin: 0 auto; */
 }
 
 .text {
@@ -518,18 +521,16 @@ nav a:nth-child(2) {
 }
 
 .card-group {
-    /* margin: 0 auto; */
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 750px;
     padding: 32px 165px;
-    /* margin: 0 auto; */
     gap: 10px;
 }
 
@@ -538,7 +539,7 @@ nav a:nth-child(2) {
     width: 107px;
     height: 106.55px;
     top: 0%;
-    right: -6%;
+    right: -10%;
     z-index: 1;
 }
 
@@ -546,7 +547,6 @@ nav a:nth-child(2) {
     background-color: #ffffff;
     width: 100%;
     height: 608px;
-    padding: 128px 64px;
     gap: 30px;
     border-radius: 32px;
     display: flex;
@@ -570,7 +570,6 @@ nav a:nth-child(2) {
 }
 
 .card-content {
-    border: 1px solid rgb(239, 239, 239);
     border-radius: 32px;
     flex: 1;
     display: flex;
@@ -596,11 +595,10 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 700px;
     box-sizing: border-box;
-    /* margin: 0 auto; */
 }
 
 .travelcontent {
@@ -829,10 +827,9 @@ nav a:nth-child(2) {
     justify-content: center;
     gap: 20px;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
+    min-width: 1440px;
+    max-width: 1902px;
     padding: 32px 100px;
-    /* margin: 0 auto; */
     box-sizing: border-box;
 }
 
@@ -890,7 +887,7 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 50%;
+    width: 80%;
     height: auto;
     margin-left: 5%;
     text-align: center;
@@ -941,7 +938,6 @@ nav a:nth-child(2) {
 }
 
 .key_image {
-    /* border: 1px solid orange; */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -955,13 +951,14 @@ nav a:nth-child(2) {
 .discount2 {
     position: absolute;
     background-color: white;
-    right: 20%;
+    right: 30%;
     top: 20%;
-    padding: 16px 32px;
+    padding: 16px;
     border-radius: 100px;
-    width: 250px;
+    width: 180px;
     height: auto;
     display: flex;
+    flex-direction: row;
     gap: 10px;
     align-items: center;
     justify-content: center;
@@ -969,7 +966,6 @@ nav a:nth-child(2) {
 }
 
 .keyimg {
-    /* border: 1px solid yellow; */
     position: relative;
     height: 100%;
     width: 100%;
@@ -1012,9 +1008,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
-    /* margin: 0 auto; */
+    min-width: 1440px;
+    max-width: 1902px;
     height: 700px;
     padding: 0;
     overflow: hidden;
@@ -1024,6 +1019,7 @@ nav a:nth-child(2) {
     position: absolute;
     width: 100%;
     height: 100%;
+    max-width: 1902px;
 }
 
 .layer img {
@@ -1145,15 +1141,11 @@ nav a:nth-child(2) {
     text-align: center;
 }
 
-.testimonial-footer h3,
-.testimonial-footer p {
-    margin: 0.5rem 0;
-}
-
 .testimonial-footer img {
     max-width: 80%;
     height: auto;
-    margin: 1rem auto;
+    margin: 16px 0px;
+    margin-top: -10%;
 }
 
 .testimonial-dots img {
@@ -1171,9 +1163,8 @@ nav a:nth-child(2) {
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2500px;
-    /* margin: 0 auto; */
+    min-width: 1440px;
+    max-width: 1902px;
 }
 
 .letter {
@@ -1285,19 +1276,16 @@ nav a:nth-child(2) {
 }
 
 .footer {
-    /* border: 1px solid red; */
-    /* margin: 0 auto; */
     position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    min-width: 1665px;
-    max-width: 2000px;
+    min-width: 1440px;
+    max-width: 1902px;
     height: 353px;
-    padding: 32px 165px ;
-    gap: 60px;
-
+    padding: 32px 165px;
+    gap: 80px;
 }
 
 .aboutus {
@@ -1337,7 +1325,7 @@ nav a:nth-child(2) {
 
 .about-content h3 {
     font-family: sans-serif;
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 450;
     line-height: 36.8px;
     text-align: left;
