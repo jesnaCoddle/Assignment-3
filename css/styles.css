@@ -1083,7 +1083,7 @@ a {
     background-color: #5D50C6;
     color: white;
     border: none;
-    padding: 1rem 2rem;
+    padding: 16px 32px;
     border-radius: 32px;
     cursor: pointer;
     flex: 1 1 auto;
