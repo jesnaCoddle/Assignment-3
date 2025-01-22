@@ -1192,6 +1192,8 @@ a {
     margin-bottom: 5%;
 }
 
+
+
 @media (max-width:1440px) {
 
     .group1 {
@@ -1243,14 +1245,33 @@ a {
         min-height: 650px;
     }
 
-    .obj-star{
+    .obj-star {
         right: 2%;
+    }
+
+    .rectangle{
+        top: 10%;
+    }
+    .girl{
+        top: -8%;
+    }
+    .discount{
+        top: 15%;
+    }
+    .ellipse14{
+        top: 0%;
+    }
+
+    .ellipse15{
+        top: 8%;
+    }
+    .ellipse16{
+        top: 25%;
     }
 }
 
 @media (max-width:1024px) {
-    .nav{
-        border: 1px solid red;
+    .nav {
         padding: 0%;
     }
 
@@ -1389,35 +1410,23 @@ a {
     }
 
     .ellipse14 {
-        position: absolute;
-        width: 96px;
-        height: 96px;
-        top: 10px;
+        top: 0%;
         left: 310px;
     }
 
     .ellipse15 {
-        position: absolute;
-        width: 40px;
-        height: 40px;
-        left: 20px;
-        top: 15%;
+        left: 0%;
+        top: 8%;
         z-index: 1;
     }
 
     .ellipse16 {
-        position: absolute;
-        width: 40px;
-        height: 40px;
         top: 185px;
         left: 450px;
         z-index: 1;
     }
 
     .ellipse17 {
-        position: absolute;
-        width: 16px;
-        height: 16px;
         top: 299px;
         left: 400px;
     }
@@ -1431,13 +1440,12 @@ a {
     }
 
     .discount {
-        top: 20%;
-
+        top: 15%;
         left: 60%;
         width: 40%;
         font-size: 12px;
         height: 8%;
-        padding: 1px 2px;
+        padding: 2px 4px;
     }
 
     .travel-right {
@@ -1595,7 +1603,7 @@ a {
     }
 
     .companylogo img {
-        max-width: 6rem;
+        max-width: 6.5rem;
     }
 
     .service {
@@ -1715,22 +1723,23 @@ a {
     }
 
     .ellipse15 {
-        top: 12%;
+        top: 7%;
     }
 
     .ellipse16 {
-        top: 25%;
+        top: 20%;
         left: 85%;
+        z-index: -1;
     }
 
     .ellipse17 {
         top: 50%;
-        left: 75%;
+        left: 80%;
     }
 
     .ellipse18 {
         top: 65%;
-        left: 80%;
+        left: 85%;
     }
 
     .discount {
@@ -2141,10 +2150,6 @@ a {
         left: 30%;
     }
 
-    .layer {
-        /* border: 1px solid grey; */
-    }
-
     .testament {
         padding: 0px;
     }
@@ -2234,8 +2239,8 @@ a {
     .obj3 {
         width: 60px;
         height: 160px;
-        bottom: 95%;
-        right: -8%;
+        bottom:80%;
+        right: 0%;
     }
 
 }
