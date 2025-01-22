@@ -1249,23 +1249,27 @@ a {
         right: 2%;
     }
 
-    .rectangle{
+    .rectangle {
         top: 10%;
     }
-    .girl{
+
+    .girl {
         top: -8%;
     }
-    .discount{
+
+    .discount {
         top: 15%;
     }
-    .ellipse14{
+
+    .ellipse14 {
         top: 0%;
     }
 
-    .ellipse15{
+    .ellipse15 {
         top: 8%;
     }
-    .ellipse16{
+
+    .ellipse16 {
         top: 25%;
     }
 }
@@ -1956,7 +1960,6 @@ a {
     }
 
     .actions button {
-        margin-top: 10%;
         padding: 1rem 2rem;
         font-size: 1rem;
     }
@@ -1966,30 +1969,29 @@ a {
     }
 
     .group1 {
-        top: 1%;
-        left: 2%;
+        top: 5%;
+        left: 5%;
         width: 150px;
         height: 180px;
     }
 
     .group2 {
-
         width: 150px;
         height: 180px;
-        left: 2%;
+        left: 5%;
         bottom: 0%;
     }
 
     .group3 {
         bottom: 20%;
-        right: 2%;
+        right: 10%;
         width: 180px;
         height: 220px;
     }
 
     .frame16 {
         top: 45%;
-        left: -10%;
+        left: 0%;
     }
 
     .frame17 {
@@ -1998,7 +2000,7 @@ a {
     }
 
     .frame18 {
-        right: -10%;
+        right: 0%;
         bottom: 15%;
         z-index: 1;
     }
@@ -2015,16 +2017,16 @@ a {
     .arrows {
         position: absolute;
         width: 2.8rem;
-        left: -3%;
+        left: 2%;
         top: 0%;
     }
 
     .service {
         flex-direction: column;
-
     }
 
     .ser-left {
+        width: 100%;
         text-align: center;
     }
 
@@ -2037,21 +2039,20 @@ a {
     }
 
     .ser-right {
-        flex-direction: column;
+        margin-top: -20%;
+        flex-direction: row;
         gap: 3rem;
-        width: 400px;
-        min-height: 620px;
+        width: 100%;
     }
 
     .ser-card1 {
-        height: 300px;
-        left: 25%;
+        height: 350px;
+        left: 5%;
     }
 
     .ser-card2 {
-        bottom: 0%;
-        left: 20%;
-        height: 300px;
+        left: 45%;
+        height: 350px;
     }
 
     .ser-card3 {
@@ -2239,7 +2240,7 @@ a {
     .obj3 {
         width: 60px;
         height: 160px;
-        bottom:80%;
+        bottom: 80%;
         right: 0%;
     }
 
