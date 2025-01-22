@@ -1242,9 +1242,17 @@ a {
     .keyimg {
         min-height: 650px;
     }
+
+    .obj-star{
+        right: 2%;
+    }
 }
 
 @media (max-width:1024px) {
+    .nav{
+        border: 1px solid red;
+        padding: 0%;
+    }
 
     .intro {
         flex-direction: row;
@@ -1351,6 +1359,7 @@ a {
 
     .obj-star {
         top: 5%;
+        right: 5%;
     }
 
     .content {
@@ -2041,16 +2050,6 @@ a {
     }
 
     .cards {
-        height: 300px;
-        overflow: scroll;
-    }
-
-    .content {
-        padding: 1rem 2rem;
-        gap: 6rem;
-    }
-
-    .cards {
         gap: 2rem;
     }
 
@@ -2063,6 +2062,8 @@ a {
     }
 
     .obj-star {
+        width: 80px;
+        height: 80px;
         right: 0%;
         top: 5%;
     }
@@ -2082,7 +2083,7 @@ a {
     }
 
     .traveltext h5 {
-        font-size: 15px;
+        font-size: 25px;
     }
 
     .traveltext h3 {
@@ -2119,7 +2120,7 @@ a {
     .rectangle9 {
         width: 303px;
         height: 465px;
-        left: -10%;
+        left: 0%;
         border-radius: 500px;
 
     }
@@ -2137,11 +2138,11 @@ a {
     }
 
     .discount2 {
-        left: 20%;
+        left: 30%;
     }
 
     .layer {
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     }
 
     .testament {
@@ -2213,7 +2214,7 @@ a {
     }
 
     .about-content h3 {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .socials {
