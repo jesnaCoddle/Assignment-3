@@ -6,6 +6,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-size: 100% 100%;
+    background-position: 0 0;
+    background-image: radial-gradient(30% 11% at 7% -2%, rgba(255, 203, 203, 0.897) 1%, #ffffff00 99%);
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -28,7 +33,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     gap: 5%;
-    padding: 12px 110px;
+    padding: 12px 80px;
     box-sizing: border-box;
     font-weight: 700;
 }
@@ -68,6 +73,10 @@ a {
     border-radius: 100px;
 }
 
+.nav-buttons button:nth-child(1){
+    background-color: white;
+}
+
 .nav-buttons button:nth-child(2) {
     background-color: #5D50C6;
     color: #fff;
@@ -84,33 +93,36 @@ a {
 
 .left {
     flex: 1;
-    min-width: 300px;
+    min-width: 350px;
     flex-direction: column;
 }
 
 .explore {
-    margin-top: 10%;
+    position: absolute;
+    background: white;
+    top: 10%;
+    width: 240px;
+    height: 62px;
+    padding: 16px 32px;
+    gap: 16px;
+    border-radius: 100px;
+    margin-top: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 60px;
-    margin-bottom: 1rem;
-    padding: 10px 20px;
-    border-radius: 100px;
-    background-color: white;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
 }
 
 .explore h1 {
-    font-size: 1rem;
+    font-size: 16px;
     text-align: center;
     color: #F85E9F;
 }
 
 .intro-text {
     max-width: 500px;
-    margin-top: 5%;
+    margin-top: 20%;
 }
 
 .intro-text h1 {
@@ -183,7 +195,6 @@ a {
 .group2,
 .group3 {
     position: absolute;
-    width: 20%;
     border-radius: 32px;
 }
 
@@ -203,7 +214,7 @@ a {
 
 .group3 {
     bottom: 15%;
-    right: 5%;
+    right: -5%;
     width: 272px;
     height: 400px;
 }
@@ -228,7 +239,9 @@ a {
 }
 
 .frame18 {
-    right: 0%;
+    width: 100px;
+    height: 100px;
+    right: -10%;
     bottom: 15%;
 }
 
@@ -246,7 +259,7 @@ a {
 }
 
 .companylogo img {
-    max-width: 12rem;
+    max-width: 8rem;
     height: auto;
 }
 
@@ -329,9 +342,8 @@ a {
 
 
 .ser-card3 {
-    /* display: block; */
     position: absolute;
-    width: 80px;
+    width: 50px;
     height: 400px;
     border-radius: 32px;
     background-color: rgb(255, 255, 255);
@@ -1557,6 +1569,11 @@ a {
     .intro-text h1 {
         font-size: 2.5rem;
     }
+    
+    .explore{
+        top: 40%;
+        left: 2%;
+    }
 
     .actions {
         justify-content: flex-start;
@@ -1930,6 +1947,7 @@ a {
 }
 
 @media (max-width: 480px) {
+
     .logo img {
         max-height: 1.5rem;
     }
@@ -1946,9 +1964,8 @@ a {
         min-height: 300px;
     }
 
-    .explore {
-        width: 200px;
-        height: 50px;
+    .explore{
+        top: 35%;
     }
 
     .intro-text h1 {
