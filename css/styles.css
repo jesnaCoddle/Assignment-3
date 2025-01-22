@@ -15,9 +15,9 @@ body {
 
 .content {
     display: flex;
-   margin: 0 auto;
+    margin: 0 auto;
     flex-wrap: wrap;
-   
+
 }
 
 
@@ -35,7 +35,7 @@ body {
     font-weight: 700;
 }
 
-.nav a:first-of-type{
+.nav a:first-of-type {
     color: black;
 }
 
@@ -262,7 +262,7 @@ a {
 
 .service {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -304,40 +304,39 @@ a {
     height: 350px;
 }
 
-
 .ser-card1 {
+
     position: absolute;
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
     border-radius: 32px;
     background-color: white;
     padding: 1rem;
     text-align: center;
+    left: 0%;
 }
 
 .ser-card2 {
     position: absolute;
-    width: 100%;
-    max-width: 350px;
-    height: 300px;
+    width: 330px;
+    height: 320px;
     border-radius: 32px;
     background-color: white;
     padding: 1rem;
     text-align: center;
-    left: 50%;
+    left: 45%;
 }
 
 
 .ser-card3 {
+    display: block;
     position: absolute;
-    width: 100%;
-    max-width: 50px;
-    height: 300px;
+    width: 80px;
+    height: 320px;
     border-radius: 32px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 1rem;
-    right: 0;
+    right: 0%;
 
 }
 
@@ -365,13 +364,13 @@ a {
 }
 
 .ser-content h5 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 8px;
     text-align: center;
 }
 
 .ser-content p {
-    font-size: 14px;
+    font-size: 18px;
     color: #555;
 }
 
@@ -417,11 +416,12 @@ a {
     align-items: center;
     gap: 12px;
     width: 500px;
+    height: 100px;
 }
 
 .buttons button {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     background-color: #ffffff;
     padding: 15px;
     border-radius: 50%;
@@ -1179,6 +1179,71 @@ a {
     margin-bottom: 5%;
 }
 
+@media (max-width:1440px) {
+    .group3 {
+        left: 55%;
+    }
+
+    .frame18 {
+        right: 0%;
+        bottom: 20%;
+    }
+
+
+    .companylogo {
+        justify-content: center;
+        gap: 8rem;
+    }
+
+    .companylogo img {
+        max-width: 8rem;
+    }
+
+
+    .arrows {
+        position: absolute;
+        width: 2.8rem;
+        left: 5%;
+        top: 0%;
+    }
+
+
+    .text {
+        margin-left: 3%;
+    }
+
+    .keyimg {
+        min-height: 650px;
+    }
+
+    .rectangle9 {
+        top: 10%;
+        left: 0%;
+        width: 60%;
+    }
+
+    .rectangle10 {
+        top: 30%;
+        left: 40%;
+        width: 60%;
+        height: 70%;
+    }
+
+    .bg {
+        top: 2%;
+        left: 30%;
+        z-index: -1;
+        width: 400px;
+        height: 200px;
+    }
+
+    .discount2 {
+        top: 15%;
+        left: 40%;
+    }
+
+}
+
 @media (max-width:1024px) {
 
     .right {
@@ -1222,6 +1287,16 @@ a {
         z-index: 1;
     }
 
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .buttons {
+        justify-content: flex-end;
+    }
+
+
     .companylogo {
         justify-content: center;
         gap: 1rem;
@@ -1246,14 +1321,10 @@ a {
     }
 
     .ser-card1,
-    .ser-card2,
-    .ser-card3 {
+    .ser-card2 {
         width: 250px;
     }
 
-    .ser-card3 {
-        display: block;
-    }
 
     .cards {
         height: 400px;
@@ -1271,7 +1342,8 @@ a {
     .card-content2 {
         max-width: 80px;
     }
-    .obj-star{
+
+    .obj-star {
         top: 5%;
     }
 
@@ -1403,38 +1475,25 @@ a {
         font-size: 16px;
     }
 
-    
+
     .keyimg {
         max-width: 100%;
-    }
-
-    .rectangle9 {
-        top: 10%;
-        left: 5%;
-        width: 50%;
     }
 
     .rectangle10 {
         top: 25%;
         left: 40%;
-        width: 50%;
-    }
-
-    .bg {
-        top: 0%;
-        left: 35%;
-        z-index: -1;
-        width: 280px;
-        height: 200px;
+        width: 60%;
+        height: 60%;
     }
 
     .discount2 {
         top: 15%;
         left: 45%;
-        width: 50%;
+        width: 40%;
     }
 
-    .contact{
+    .contact {
         gap: 1.5rem;
     }
 }
@@ -1462,661 +1521,703 @@ a {
         text-align: center;
     }
 
-        .intro {
-            flex-direction: column;
-            align-items: center;
-            padding: 1rem;
-        }
-    
-        .left,
-        .right {
-            width: 100%;
-        }
-    
-        .left {
-            min-height: 300px;
-        }
-    
-        .intro-text h1 {
-            font-size: 2.5rem;
-        }
-    
-        .actions {
-            justify-content: flex-start;
-            gap: 1rem;
-            margin-top: 10%;
-        }
-    
-        .group1 {
-            top: 10%;
-            left: 15%;
-            width: 272px;
-            height: 300px;
-        }
-    
-        .group2 {
-            width: 272px;
-            height: 300px;
-            left: 15%;
-            bottom: 5%;
-        }
-    
-        .group3 {
-            bottom: 20%;
-            right: 5%;
-            width: 272px;
-            height: 350px;
-        }
-    
-        .frame16 {
-            top: 50%;
-            left: 10%;
-        }
-    
-        .frame17 {
-            bottom: -5%;
-            left: 55%;
-        }
-    
-        .frame18 {
-            right: 0%;
-            bottom: 20%;
-            z-index: 1;
-        }
-
-        .companylogo {
-            justify-content: center;
-            gap: 1rem;
-        }
-    
-        .companylogo img {
-            max-width: 6rem;
-        }
-        .destination {
-            flex-direction: column;
-            align-items: center;
-            padding: 1rem;
-        }
-    
-        .text {
-            align-items: center;
-            text-align: center;
-        }
-    
-        .text h3 {
-            font-size: 1.8rem;
-        }
-    
-        .text p {
-            font-size: 2rem;
-        }
-    
-        .buttons {
-            gap: 10px;
-        }
-    
-        .buttons button {
-            width: 50px;
-            height: 50px;
-            padding: 10px;
-        }
-    
-        .buttons img {
-            width: 12px;
-            height: 12px;
-        }
-        .cards {
-            height: 400px;
-            overflow: scroll;
-        }
-    
-        .cards {
-            gap: 2rem;
-        }
-    
-        .card {
-            max-width: 50%;
-        }
-    
-        .card-content2 {
-            max-width: 80px;
-        }
-        .travelpoint {
-            flex-direction: column;
-            width: 100%;
-        }
-    
-        .travelcontent {
-            min-height: 650px;
-            width: 100%;
-            padding: 15px;
-        }
-    
-        .rectangle {
-            left: 0%;
-            bottom: 0%;
-        }
-    
-        .girl {
-            position: absolute;
-            left: 15%;
-            bottom: -2%;
-        }
-    
-        .ellipse14 {
-            top: 0%;
-            left: 70%;
-        }
-    
-        .ellipse15 {
-            top: 12%;
-        }
-    
-        .ellipse16 {
-            top: 25%;
-            left: 85%;
-        }
-    
-        .ellipse17 {
-            top: 50%;
-            left: 75%;
-        }
-    
-        .ellipse18 {
-            top: 65%;
-            left: 80%;
-        }
-    
-        .discount {
-            width: 200px;
-            top: 15%;
-            left: 65%;
-        }
-    
-        .travelframe {
-            width: 100%;
-            height: 300px;
-        }
-    
-        .frame50 {
-            left: 85%;
-        }
-
-        .key-text {
-            text-align: center;
-        }
-    
-        .key-text h2 {
-            font-size: 1.3rem;
-        }
-    
-        .key-text h3 {
-            font-size: 1.5rem;
-        }
-    
-        .services {
-            gap: 1rem;
-            margin-left: 15%;
-    
-        }
-    
-        .offer-content {
-            flex-direction: column;
-            text-align: center;
-        }
-    
-        .keyimg {
-            max-width: 100%;
-        }
-    
-        .rectangle9 {
-            top: 5%;
-            left: 10%;
-            width: 50%;
-        }
-    
-        .rectangle10 {
-            top: 30%;
-            left: 40%;
-            width: 40%;
-            height: 70%;
-        }
-    
-        .bg {
-            top: 0%;
-            left: 35%;
-            z-index: -1;
-            width: 300px;
-            height: 200px;
-        }
-    
-        .discount2 {
-            top: 15%;
-            left: 45%;
-            width: 40%;
-        }
-
-        .main {
-            flex-direction: row;
-            max-width: 100%;
-        }
-    
-        .layer {
-            position: absolute;
-            max-width: 100%;
-            height: 100%;
-        }
-    
-        .layer img {
-            width: 100%;
-            height: 100%;
-        }
-    
-    
-        .testament {
-            padding: 10px;
-        }
-    
-        .testimonial-left button,
-        .testimonial-right button {
-            width: 50px;
-            height: 50px;
-        }
-    
-        .testimonial-head h3 {
-            font-size: 1.5rem;
-        }
-    
-        .testimonial-footer h3 {
-            font-size: 1rem;
-        }
-    
-        .testimonial-footer p {
-            font-size: 0.9rem;
-        }
-
-        .letter {
-            padding: 16px;
-        }
-    
-        .news-text {
-            min-height: 100px;
-        }
-    
-        .news-text h2 {
-            font-size: 2rem;
-            line-height: 1.3;
-        }
-    
-        .news-text h3 {
-            font-size: 1rem;
-        }
-    
-        .news-input {
-            flex-direction: column;
-            gap: 16px;
-        }
-    
-        .news-input input {
-            height: 40px;
-            font-size: 14px;
-            width: 100%;
-            border-radius: 2rem;
-        }
-    
-        .news-input button {
-            font-size: 14px;
-            padding: 1rem 2rem;
-            height: 50px;
-            width: 100%;
-            border-radius: 2rem;
-        }
-    
-        .Graphic_Elements {
-            width: 80px;
-            height: 80px;
-        }
-
-        .footer {
-            padding: 20px;
-            gap: 20px;
-            flex-direction: row;
-        }
-    
-        .aboutus {
-            width: 100%;
-            padding: 20px;
-        }
-    
-        .contact {
-            width: 100%;
-            flex-direction: row;
-            padding: 20px;
-            flex-wrap: wrap;
-        }
-    
-        .contact h3 {
-            font-size: 18px;
-        }
-    
-        .contact p {
-            font-size: 14px;
-        }
-    
-        .about-content h3 {
-            font-size: 16px;
-        }
-    
-        .socials {
-            gap: 10px;
-        }
-    
-        .obj3 {
-            width: 60px;
-            height: 160px;
-            bottom: 80%;
-        }
-    
-        .copyright {
-            font-size: 16px;
-            text-align: center;
-    
-        }
-    
-        .logofooter {
-            width: 100px;
-            height: auto;
-        }
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
     }
 
-    @media (max-width: 480px) {
-        .logo img {
-            max-height: 1.5rem;
-        }
-    
-        nav a {
-            font-size: 0.9rem;
-        }
-    
-        .nav-buttons button {
-            font-size: 0.7rem;
-        }
-    
-        .left {
-            min-height: 300px;
-        }
-    
-        .explore {
-            width: 200px;
-            height: 50px;
-        }
-    
-        .intro-text h1 {
-            font-size: 2rem;
-        }
-    
-        .intro-para p {
-            font-size: 0.8rem;
-        }
-    
-        .actions button {
-            margin-top: 10%;
-            padding: 1rem 2rem;
-            font-size: 1rem;
-        }
-    
-        .right {
-            min-height: 400px;
-        }
-    
-        .group1 {
-            top: 1%;
-            left: 2%;
-            width: 150px;
-            height: 180px;
-        }
-    
-        .group2 {
-    
-            width: 150px;
-            height: 180px;
-            left: 2%;
-            bottom: 0%;
-        }
-    
-        .group3 {
-            bottom: 20%;
-            right: 2%;
-            width: 180px;
-            height: 220px;
-        }
-    
-        .frame16 {
-            top: 45%;
-            left: -10%;
-        }
-    
-        .frame17 {
-            top: 85%;
-            left: 45%;
-        }
-    
-        .frame18 {
-            right: -10%;
-            bottom: 15%;
-            z-index: 1;
-        }
-    
-        .companylogo {
-            justify-content: center;
-            gap: 1rem;
-        }
-    
-        .companylogo img {
-            max-width: 4rem;
-        }
-    
-    
-        .arrows {
-            position: absolute;
-            width: 2.8rem;
-            left: -3%;
-            top: 0%;
-        }
-    
-        .cards {
-            height: 300px;
-            overflow: scroll;
-        }
-    
-        .content {
-            padding: 1rem 2rem;
-            gap: 6rem;
-        }
-    
-        .cards {
-            gap: 2rem;
-        }
-    
-        .card {
-            max-width: 60%;
-        }
-    
-        .card-content2 {
-            max-width: 50px;
-        }
-    
-        .obj-star{
-            right: 0%;
-            top: 5%;
-        }
-    
-        .travelcontent {
-            min-height: 650px;
-            width: 100%;
-            padding: 15px;
-        }
-    
-        .travel-left {
-            display: none;
-        }
-    
-        .traveltext h5 {
-            font-size: 15px;
-        }
-    
-        .traveltext h3 {
-            font-size: 18px;
-        }
-    
-        .traveltext p {
-            width: 100%;
-            font-size: 18px;
-            margin-top: -15%;
-        }
-    
-        .travelframe {
-            margin-top: -15%;
-        }
-    
-        .frame50 {
-            left: 70%;
-        }
-    
-        .keyfeature {
-            padding: 20px;
-            flex-direction: column;
-        }
-    
-        .offer-content {
-            padding: 10px;
-        }
-    
-        .services {
-            margin-left: 0%;
-        }
-    
-        .rectangle9 {
-            top: 10%;
-            left: 0%;
-            width: 60%;
-        }
-    
-        .rectangle10 {
-            top: 35%;
-            left: 40%;
-            width: 60%;
-            height: 50%;
-        }
-    
-        .bg {
-            top: 0%;
-            left: 30%;
-            z-index: -1;
-            width: 280px;
-            height: 200px;
-        }
-    
-        .discount2 {
-            top: 12%;
-            left: 40%;
-            width: 50%;
-        }
-    
-        
-        .testimonial-left,
-        .testimonial-right {
-            display: none;
-        }
-    
-        .testament {
-            padding: 0px;
-        }
-    
-        .testimonial-head h3 {
-            font-size: 1.2rem;
-        }
-    
-        .testimonial-footer h3 {
-            font-size: 1rem;
-        }
-    
-        .testimonial-footer p {
-            font-size: 0.9rem;
-        }
-    
-        .news-text h2 {
-            font-size: 1.6rem;
-        }
-    
-        .news-text h3 {
-            font-size: 1rem;
-        }
-    
-        .news-input input {
-            font-size: 12px;
-        }
-    
-        .news-input button {
-            font-size: 12px;
-        }
-    
-        .Graphic_Elements {
-            width: 50px;
-            height: 50px;
-            top: 3%;
-            left: -2%;
-        }
-    
-        .footer {
-            padding: 15px;
-            gap: 15px;
-            flex-direction: column;
-        }
-    
-        .aboutus {
-            width: 100%;
-            padding: 10px;
-        }
-    
-        .contact {
-            width: 100%;
-            flex-direction: row;
-            padding: 10px;
-        }
-    
-        .contact h3 {
-            font-size: 16px;
-        }
-    
-        .contact p {
-            font-size: 14px;
-        }
-    
-        .about-content h3 {
-            font-size: 14px;
-        }
-    
-        .socials {
-            gap: 8px;
-        }
-    
-        .copyright {
-            font-size: 12px;
-            margin-left: 10%;
-        }
-    
-        .logofooter {
-            width: 80px;
-            height: auto;
-        }
-    
-        .obj3 {
-            width: 60px;
-            height: 160px;
-            bottom: 95%;
-            right: -8%;
-        }
-    
+    .left,
+    .right {
+        width: 100%;
     }
-    
+
+    .left {
+        min-height: 300px;
+    }
+
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .actions {
+        justify-content: flex-start;
+        gap: 1rem;
+        margin-top: 10%;
+    }
+
+    .group1 {
+        top: 10%;
+        left: 15%;
+        width: 272px;
+        height: 300px;
+    }
+
+    .group2 {
+        width: 272px;
+        height: 300px;
+        left: 15%;
+        bottom: 5%;
+    }
+
+    .group3 {
+        bottom: 20%;
+        right: 5%;
+        width: 272px;
+        height: 350px;
+    }
+
+    .frame16 {
+        top: 50%;
+        left: 10%;
+    }
+
+    .frame17 {
+        bottom: -5%;
+        left: 55%;
+    }
+
+    .frame18 {
+        right: 0%;
+        bottom: 20%;
+        z-index: 1;
+    }
+
+    .companylogo {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .companylogo img {
+        max-width: 6rem;
+    }
+
+    .service {
+
+        flex-direction: row;
+    }
+
+    .ser-text h1 {
+        text-align: left;
+        font-size: 16px;
+    }
+
+    .ser-text h3 {
+        font-size: 18px;
+    }
+
+    .ser-card1,
+    .ser-card2 {
+        width: 200px;
+    }
+
+    .ser-card2 {
+        margin-left: 5%;
+    }
+
+    .ser-content h5 {
+        font-size: 14px;
+    }
+
+    .ser-content p {
+        font-size: 18px;
+    }
+
+
+    .ser-card3 {
+        display: none;
+    }
+
+    .destination {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+    }
+
+    .text h3 {
+        font-size: 1.8rem;
+    }
+
+    .text p {
+        font-size: 2rem;
+    }
+
+    .buttons {
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .buttons button {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+
+    .buttons img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .cards {
+        height: 400px;
+        overflow: scroll;
+    }
+
+    .cards {
+        gap: 2rem;
+    }
+
+    .card {
+        max-width: 50%;
+    }
+
+    .card-content2 {
+        max-width: 80px;
+    }
+
+    .travelpoint {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .travelcontent {
+        min-height: 650px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .rectangle {
+        left: 0%;
+        bottom: 0%;
+    }
+
+    .girl {
+        position: absolute;
+        left: 15%;
+        bottom: -2%;
+    }
+
+    .ellipse14 {
+        top: 0%;
+        left: 70%;
+    }
+
+    .ellipse15 {
+        top: 12%;
+    }
+
+    .ellipse16 {
+        top: 25%;
+        left: 85%;
+    }
+
+    .ellipse17 {
+        top: 50%;
+        left: 75%;
+    }
+
+    .ellipse18 {
+        top: 65%;
+        left: 80%;
+    }
+
+    .discount {
+        width: 200px;
+        top: 15%;
+        left: 65%;
+    }
+
+    .travelframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .frame50 {
+        left: 85%;
+    }
+
+    .key-text {
+        text-align: center;
+    }
+
+    .key-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .key-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .services {
+        gap: 1rem;
+        margin-left: 15%;
+
+    }
+
+    .offer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .keyimg {
+        max-width: 100%;
+    }
+
+    .rectangle10 {
+        top: 40%;
+    }
+
+    .discount2 {
+        top: 15%;
+        width: 30%;
+    }
+
+    .main {
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .layer {
+        position: absolute;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .layer img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .testament {
+        padding: 10px;
+    }
+
+    .testimonial-left button,
+    .testimonial-right button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial-head h3 {
+        font-size: 1.5rem;
+    }
+
+    .testimonial-footer h3 {
+        font-size: 1rem;
+    }
+
+    .testimonial-footer p {
+        font-size: 0.9rem;
+    }
+
+    .letter {
+        padding: 16px;
+    }
+
+    .news-text {
+        min-height: 100px;
+    }
+
+    .news-text h2 {
+        font-size: 2rem;
+        line-height: 1.3;
+    }
+
+    .news-text h3 {
+        font-size: 1rem;
+    }
+
+    .news-input {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .news-input input {
+        height: 40px;
+        font-size: 14px;
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .news-input button {
+        font-size: 14px;
+        padding: 1rem 2rem;
+        height: 50px;
+        width: 100%;
+        border-radius: 2rem;
+    }
+
+    .Graphic_Elements {
+        width: 80px;
+        height: 80px;
+    }
+
+    .footer {
+        padding: 20px;
+        gap: 20px;
+        flex-direction: row;
+    }
+
+    .aboutus {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact {
+        width: 100%;
+        flex-direction: row;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .contact h3 {
+        font-size: 18px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    .about-content h3 {
+        font-size: 16px;
+    }
+
+    .socials {
+        gap: 10px;
+    }
+
+    .obj3 {
+        width: 60px;
+        height: 160px;
+        bottom: 80%;
+    }
+
+    .copyright {
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .logofooter {
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        max-height: 1.5rem;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+    }
+
+    .nav-buttons button {
+        font-size: 0.7rem;
+    }
+
+    .left {
+        min-height: 300px;
+    }
+
+    .explore {
+        width: 200px;
+        height: 50px;
+    }
+
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+
+    .intro-para p {
+        font-size: 0.8rem;
+    }
+
+    .actions button {
+        margin-top: 10%;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .right {
+        min-height: 400px;
+    }
+
+    .group1 {
+        top: 1%;
+        left: 2%;
+        width: 150px;
+        height: 180px;
+    }
+
+    .group2 {
+
+        width: 150px;
+        height: 180px;
+        left: 2%;
+        bottom: 0%;
+    }
+
+    .group3 {
+        bottom: 20%;
+        right: 2%;
+        width: 180px;
+        height: 220px;
+    }
+
+    .frame16 {
+        top: 45%;
+        left: -10%;
+    }
+
+    .frame17 {
+        top: 85%;
+        left: 45%;
+    }
+
+    .frame18 {
+        right: -10%;
+        bottom: 15%;
+        z-index: 1;
+    }
+
+    .companylogo {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .companylogo img {
+        max-width: 6rem;
+    }
+
+    .arrows {
+        position: absolute;
+        width: 2.8rem;
+        left: -3%;
+        top: 0%;
+    }
+
+    .service {
+        flex-direction: column;
+
+    }
+
+    .ser-left {
+        text-align: center;
+    }
+
+    .ser-text h1 {
+        text-align: center;
+    }
+
+    .ser-text h3 {
+        width: 300px;
+    }
+
+    .ser-right {
+        flex-direction: column;
+        gap: 3rem;
+        width: 400px;
+        min-height: 620px;
+    }
+
+    .ser-card1 {
+        height: 300px;
+        left: 25%;
+    }
+
+    .ser-card2 {
+        bottom: 0%;
+        left: 20%;
+        height: 300px;
+    }
+
+
+    .cards {
+        height: 300px;
+        overflow: scroll;
+    }
+
+    .content {
+        padding: 1rem 2rem;
+        gap: 6rem;
+    }
+
+    .cards {
+        gap: 2rem;
+    }
+
+    .card {
+        max-width: 60%;
+    }
+
+    .card-content2 {
+        max-width: 50px;
+    }
+
+    .obj-star {
+        right: 0%;
+        top: 5%;
+    }
+
+    .travelcontent {
+        min-height: 600px;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .travel-left {
+        display: none;
+    }
+
+    .traveltext h5 {
+        font-size: 15px;
+    }
+
+    .traveltext h3 {
+        font-size: 18px;
+    }
+
+    .traveltext p {
+        width: 100%;
+        font-size: 18px;
+        margin-top: -15%;
+    }
+
+    .travelframe {
+        margin-top: -15%;
+    }
+
+    .frame50 {
+        left: 70%;
+    }
+
+    .keyfeature {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .offer-content {
+        padding: 10px;
+    }
+
+    .services {
+        margin-left: 0%;
+    }
+
+    .keyimg {
+        min-height: 500px;
+        max-width: 100%;
+    }
+
+    .discount2 {
+        top: 20%;
+        width: 45%;
+        padding: 6px 12px;
+    }
+
+    .bg{
+        left: 15%;
+    }
+
+    .layer {
+        border: 1px solid grey;
+    }
+
+    .testament {
+        padding: 0px;
+    }
+
+    .testimonial-head h3 {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-footer h3 {
+        font-size: 1rem;
+    }
+
+    .testimonial-footer p {
+        font-size: 0.9rem;
+    }
+
+    .news-text h2 {
+        font-size: 1.6rem;
+    }
+
+    .news-text h3 {
+        font-size: 1rem;
+    }
+
+    .news-input input {
+        font-size: 12px;
+    }
+
+    .news-input button {
+        font-size: 12px;
+    }
+
+    .Graphic_Elements {
+        width: 50px;
+        height: 50px;
+        top: 3%;
+        left: -2%;
+    }
+
+    .footer {
+        padding: 15px;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .aboutus {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact {
+        width: 100%;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .contact h3 {
+        font-size: 16px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+
+    .about-content h3 {
+        font-size: 14px;
+    }
+
+    .socials {
+        gap: 8px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        margin-left: 10%;
+    }
+
+    .logofooter {
+        width: 80px;
+        height: auto;
+    }
+
+    .obj3 {
+        width: 60px;
+        height: 160px;
+        bottom: 95%;
+        right: -8%;
+    }
+
+}
