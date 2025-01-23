@@ -15,12 +15,12 @@ body {
 
 .container {
     width: 100%;
+    margin: 0 auto;
     border: 1px solid #645e5e;
 }
 
 .content {
     display: flex;
-    margin: 0 auto;
     flex-wrap: wrap;
 }
 
@@ -1206,8 +1206,6 @@ a {
     margin-bottom: 5%;
 }
 
-
-
 @media (max-width:1440px) {
 
     .group1 {
@@ -1793,7 +1791,6 @@ a {
     .travel-right {
         flex-direction: row;
     }
-
    
     .frame41,
     .frame42,
