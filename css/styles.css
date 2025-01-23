@@ -627,7 +627,8 @@ a {
     padding: 20px;
     gap: 16px;
     border-radius: 32px;
-    border: 1px solid #1918251A;
+    border: 1px solid #19182575;
+
 }
 
 .frame41 {
@@ -1246,7 +1247,6 @@ a {
     }
 
     .ser-card3 {
-        right: -5%;
         overflow: hidden;
     }
 
@@ -1472,26 +1472,22 @@ a {
     }
 
     .travelframe {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        width: 420px;
+        height: 320px;
     }
 
     .frame41,
     .frame42,
     .frame43,
     .frame44 {
-
-        width: 50%;
-        height: 45%;
-        margin-bottom: 10px;
+        border: 1px solid #19182575;
+        width: 200px;
     }
 
     .frame50 {
         width: 100%;
         max-width: 200px;
-        left: 80%;
+        left: 75%;
     }
 
     .traveltext {
@@ -1508,6 +1504,7 @@ a {
     }
 
     .num {
+        margin-top: 10%;
         font-size: 25px;
     }
 
@@ -1523,8 +1520,30 @@ a {
         left: 40%;
     }
 
+    .news-text h2 {
+        font-size: 35px;
+    }
+
+    .news-input button {
+        font-size: 16px;
+        font-weight: lighter;
+        border-radius: 32px;
+    }
+
     .contact {
         gap: 1.5rem;
+    }
+
+    .about-content h3 {
+        font-size: 16px;
+    }
+
+    .obj3 {
+        bottom: 40%;
+    }
+
+    .copyright {
+        font-size: 16px;
     }
 }
 
@@ -1599,7 +1618,7 @@ a {
     .group3 {
         bottom: 20%;
         right: 5%;
-        width: 272px;
+        width: 250px;
         height: 350px;
     }
 
@@ -1621,15 +1640,15 @@ a {
 
     .companylogo {
         justify-content: center;
-        gap: 1rem;
+        gap: 16px;
     }
 
     .companylogo img {
-        max-width: 6.5rem;
+        max-width: 102px;
     }
 
     .service {
-
+        min-height: 300px;
         flex-direction: row;
     }
 
@@ -1644,7 +1663,8 @@ a {
 
     .ser-card1,
     .ser-card2 {
-        width: 200px;
+        width: 220px;
+        height: 380px;
     }
 
     .ser-card2 {
@@ -1723,7 +1743,7 @@ a {
     }
 
     .travelcontent {
-        min-height: 650px;
+        min-height: 500px;
         width: 100%;
         padding: 15px;
     }
@@ -1740,7 +1760,7 @@ a {
     }
 
     .ellipse14 {
-        top: 0%;
+        top: -6%;
         left: 70%;
     }
 
@@ -1749,8 +1769,8 @@ a {
     }
 
     .ellipse16 {
-        top: 20%;
-        left: 85%;
+        top: 30%;
+        left: 90%;
         z-index: -1;
     }
 
@@ -1766,25 +1786,26 @@ a {
 
     .discount {
         width: 200px;
-        top: 15%;
+        top: 25%;
         left: 65%;
     }
 
-    .travelframe {
-        width: 420px;
-        height: 300px;
+    .travel-right {
+        flex-direction: row;
     }
 
+   
     .frame41,
     .frame42,
     .frame43,
     .frame44 {
         border: 1px solid #19182575;
-        width: 200px;
+        width: 130px;
     }
 
     .frame50 {
-        left: 75%;
+        left: 55%;
+        top: -20%;
     }
 
     .key-text {
@@ -2096,6 +2117,7 @@ a {
 
     .travelcontent {
         width: 100%;
+        flex-direction: column;
     }
 
     .travel-left {
@@ -2124,10 +2146,18 @@ a {
 
     .travelframe {
         margin-top: -15%;
+        width: 350px;
+    }
+
+    .frame41,
+    .frame42,
+    .frame43,
+    .frame44 {
+        width: 165px;
     }
 
     .frame50 {
-        right: 0%;
+        left: 70%;
     }
 
     .keyfeature {
